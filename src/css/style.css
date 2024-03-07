@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(114, 114, 230);
+}
+h1{
+    margin: 2rem 0;
+    margin-left: 15rem;
+}
+.main-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+/*Form Section*/
+.medicine-registration-form{
+    flex-basis: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    background-color: blueviolet;
+}
+.medicine-registration-form input{
+    height: 2.5rem;
+    padding: 0 0.5rem;
+    border-radius: 0.25rem;
+}
+.medicine-registration-form label{
+    font-weight: bold;
+}
+.submit-medicine{
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+}
+
+/*Medicine Display Section*/
+.medicine-display-container{
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+.medicine-list-header{
+    display: flex;
+    height: 2.5rem;
+    border: 1px solid black;
+    background-color: white;
+}
+.medicine-list-header span{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.product-row{
+    display: flex;
+    flex-basis: 20%;
+    height: 2rem;
+    margin-bottom: 0.5rem;
+    background-color: bisque;
+    border-radius: .25rem;
+    margin-top: .5rem;
+}
+.product-row span{
+    flex-basis: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button{
+    width: 6rem;
+    height: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: .25rem;
+    border: none;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmecy Inventory Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Welcome to the Pharmecy Inventory Management System.</h1>
+    <div class="main-container">
+        <form class="medicine-registration-form">
+            <label for="name">Product Name:</label>
+            <input type="text" name="name" class="medicine-name" required>
+            
+            <label for="manufacturer">Manufacturer:</label>
+            <input type="text" name="manufacturer" class="medicine-manufacturer" required>
+            
+            <label for="expirationDate">Expiration Date:</label>
+            <input type="date" name="expirationDate" class="expiration-date" required>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" class="quantity" required>
+            <button type="submit" class="submit-medicine">Add Medicine</button>
+        </form>
+        <section class="medicine-display-container">
+            <header class="medicine-list-header">
+                <span>Name</span>
+                <span>Manufacturer</span>
+                <span>Expiration Date</span>
+                <span>Quantity</span>
+                <span></span>
+            </header>
+            <ul class="display-medicine-list">
+
+            </ul>
+        </section>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
